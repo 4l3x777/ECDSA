@@ -73,7 +73,7 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: uploads
-          path: ECDSA-0.0.1-Linux-release.deb   
+          path: ECDSA-0.0.1-Linux.deb   
         
   build_windows:
     runs-on: windows-latest
